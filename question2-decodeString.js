@@ -38,4 +38,4 @@ console.log(decodeString("4[ab]"))
 console.log(decodeString("2[b3[a]]"))
 console.log(decodeString("2[b3[a2[c]]]"))
 
-
+module.exports = decodeString
