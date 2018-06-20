@@ -24,3 +24,5 @@ const sortByStrings = (s, t) => {
 console.log(sortByStrings('weather', 'therapyw'))
 console.log(sortByStrings('good', 'odg'))
 console.log(sortByStrings('johnny', 'mwnokha'))
+console.log(sortByStrings('', 'mwnokha'))
+console.log(sortByStrings('johnny', ''))
