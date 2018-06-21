@@ -24,7 +24,6 @@ const decodeString = s => {
           break;
         }
       }
-      console.log('final string', strToRepeat, 'to be repeated', repeatVal, 'times')
       decodedString = strToRepeat.repeat(repeatVal)
       return decodedString
     }
@@ -33,9 +32,5 @@ const decodeString = s => {
 //this function is called recursively as the encoding pattern can be nested any number of times
 //O(c) space where c is the call stack depth based on the described nesting above
 //the size of the call stack >> size of the output string
-
-console.log(decodeString("4[ab]"))
-console.log(decodeString("2[b3[a]]"))
-console.log(decodeString("2[b3[a2[c]]]"))
 
 module.exports = decodeString

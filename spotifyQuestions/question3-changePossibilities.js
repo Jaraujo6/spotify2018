@@ -31,8 +31,4 @@ const changePossibilities = (amount, denominations) => {
 //Total time complexity O(md + m ) ~ O(md) 
 //Total space complexity O(n) 
 
-
-console.log(changePossibilities(6, [1, 3, 5]))
-console.log(changePossibilities(4, [1, 2, 3]))
-
 module.exports = changePossibilities

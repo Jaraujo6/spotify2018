@@ -1,0 +1,27 @@
+{
+  "name": "spotify2018",
+  "version": "1.0.0",
+  "description": "Answers to Spotify Fellowship Evaluation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaraujo6/spotify2018.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaraujo6/spotify2018/issues"
+  },
+  "homepage": "https://github.com/Jaraujo6/spotify2018#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}

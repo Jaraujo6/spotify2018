@@ -21,10 +21,4 @@ const sortByStrings = (s, t) => {
   return output // O(s + t) time, O(s) space
 }
 
-console.log(sortByStrings('weather', 'therapyw'))
-console.log(sortByStrings('good', 'odg'))
-console.log(sortByStrings('johnny', 'mwnokha'))
-console.log(sortByStrings('', 'mwnokha'))
-console.log(sortByStrings('johnny', ''))
-
 module.exports = sortByStrings
